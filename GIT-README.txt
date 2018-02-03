@@ -23,6 +23,14 @@ git push -u origin master
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 
+Atualizar repositorio
+
+git add --all
+git commit -m "Descrição da versão"
+git push origin master
+
+
+
 c###########Composer
 
 composer dump-autoload //(faz o composer gerar novamente o autoload)
